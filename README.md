@@ -6,21 +6,23 @@ Estimo que se necesitará en el orden de **20 GB de espacio libre en disco** (id
 
 ## 1. Descargar los datos de IMDb
 
-Descarga los siguientes siete archivos desde <https://datasets.imdbws.com/>:
+Descarga los siguientes siete archivos desde <https://datasets.imdbws.com/> (el conteo de filas es correcto desde 2026-10-21 y incluye el encabezado): 
 
-- `name.basics.tsv.gz`
-- `title.akas.tsv.gz`
-- `title.basics.tsv.gz`
-- `title.crew.tsv.gz`
-- `title.episode.tsv.gz`
-- `title.principals.tsv.gz`
-- `title.ratings.tsv.gz`
+- `name.basics.tsv.gz` (12.881.969 filas)
+- `title.akas.tsv.gz` (59.861.136 filas)
+- `title.basics.tsv.gz` (12.881.968 filas)
+- `title.crew.tsv.gz` (12.881.680 filas)
+- `title.episode.tsv.gz` (9.963.519 filas)
+- `title.principals.tsv.gz` (102.408.464 filas)
+- `title.ratings.tsv.gz` (1.723.236 filas)
 
 Guárdalos juntos en una carpeta, por ejemplo, `big-data-cine/data/`.
 
 **No es necesario descomprimirlos:** Spark puede leer directamente los archivos `.tsv.gz`.
 
 Los archivos contienen datos en formato **TSV** (*tab-separated values*, similar a CSV, pero con tabs como separadores). La descripción de cada archivo está en la [documentación de los conjuntos de datos no comerciales de IMDb](https://data.imdb.com/non-commercial-datasets/). (Solo se pueden usar estos datos para fines no comerciales.)
+
+ En la carpeta muestra de este repositorio, dejamos muestras de las primeras 1.000 filas de los archivos (solo para ilustrar cómo se ven: mejor no trabajar con estos datos, pues los identificadores de un archivo pueden no aparecer en otro).
 
 ## 2. Comprobar Java
 
