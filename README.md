@@ -1,4 +1,11 @@
-En este taller usaremos **Apache Spark (PySpark)** para explorar los datos públicos de IMDb desde nuestro propio computador. Se va a dar una demostración durante el taller, pero opcionalmente, al seguir estas instrucciones (idealmente antes del taller, o en caso contrario cuando puedas), puedes también correr todo desde tu computador.
+<img
+  src="dcc-ec-logo.jfif"
+  align="right"
+  width="180"
+  alt="Imagen"
+/>
+
+En este taller usaremos **Apache Spark (PySpark)** para explorar los datos públicos de IMDb desde nuestro propio computador. Veremos una demostración durante el taller, pero opcionalmente, al seguir estas instrucciones (idealmente antes del taller, o en caso contrario cuando puedas), también puedes correr todo localmente desde tu computador.
 
 Las instrucciones sirven para **Windows, macOS y Linux**.
 
@@ -22,7 +29,7 @@ Guárdalos juntos en una carpeta, por ejemplo, `big-data-cine/data/`.
 
 Los archivos contienen datos en formato **TSV** (*tab-separated values*, similar a CSV, pero con tabs como separadores). La descripción de cada archivo está en la [documentación de los conjuntos de datos no comerciales de IMDb](https://data.imdb.com/non-commercial-datasets/). (Solo se pueden usar estos datos para fines no comerciales.)
 
- En la carpeta muestra de este repositorio, dejamos muestras de las primeras 1.000 filas de los archivos (solo para ilustrar cómo se ven: mejor no trabajar con estos datos, pues los identificadores de un archivo pueden no aparecer en otro).
+En la carpeta [`muestra/`](https://github.com/aidhog/big-data-cine/tree/main/muestra) de este repositorio, dejamos muestras de las primeras 1.000 filas de los archivos (solo para ilustrar cómo se ven: mejor no trabajar con estos datos, pues los identificadores de un archivo pueden no aparecer en otro).
 
 ## 2. Comprobar Java
 
