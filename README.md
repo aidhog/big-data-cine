@@ -2,7 +2,7 @@ En este taller usaremos **Apache Spark (PySpark)** para explorar los datos públ
 
 Las instrucciones sirven para **Windows, macOS y Linux**.
 
-> Esitimo que se necesitará en el orden de **20 GB de espacio libre en disco** (idealmente más).
+Estimo que se necesitará en el orden de **20 GB de espacio libre en disco** (idealmente más).
 
 ## 1. Descargar los datos de IMDb
 
