@@ -149,7 +149,7 @@ Espera unos segundos (la primera ejecución puede tardar un poco más). Debajo d
 
 ## 7. Descargar y lanzar el Jupyter Notebook
 
-En la carpeta [`notebook`](https://github.com/aidhog/big-data-cine/tree/main/notebook) en este repositorio, pues bajar el archivo `notebook_big_data_cine.ipynb`. Puedes ponerlo en la misma carpeta local en tu computador en que tienes los datos del IMDB. En tu navegador, abre Jupyter, y en la pestaña izquierda, abre la carpeta con el notebook y los datos. Finalmente, abre el notebook.
+En la carpeta [`notebook`](https://github.com/aidhog/big-data-cine/tree/main/notebook) en este repositorio, puedes bajar el archivo `notebook_big_data_cine.ipynb`. Puedes ponerlo en la misma carpeta local en tu computador en que tienes los datos del IMDB. En tu navegador, abre Jupyter, y en la pestaña izquierda, abre la carpeta con el notebook y los datos. Finalmente, abre el notebook.
 
 **Eso! Ojalá haya funcionado.**
 
