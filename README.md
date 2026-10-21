@@ -24,7 +24,7 @@ Los archivos contienen datos en formato **TSV** (*tab-separated values*, similar
 
 ## 2. Comprobar Java
 
-Necesitamos **Java 17 o una versión posterior compatible con Spark**. Abre una terminal (en Windows, **PowerShell**) y ejecuta:
+Necesitamos **Java 17 o una versión posterior compatible con Spark**. Abre una terminal (en Windows, **PowerShell**, o en adelente también "_terminal_" cuando no importe si usas Windows, macOS o Linux) y ejecuta:
 
 ```bash
 java -version
@@ -48,13 +48,15 @@ Si todavía hay problemas, comprueba `JAVA_HOME`:
 $env:JAVA_HOME
 ```
 
-**macOS o Linux:**
+**macOS o Linux (Terminal):**
 
 ```bash
 printenv JAVA_HOME
 ```
 
-La ruta debería apuntar a la carpeta del JDK, por ejemplo, `C:\Program Files\Eclipse Adoptium\jdk-17...` en Windows. La ubicación exacta depende del sistema. Verifica de nuevo con `java -version`.
+La ruta debería apuntar a la carpeta del JDK, por ejemplo, `C:\Program Files\Eclipse Adoptium\jdk-17...` en Windows. La ubicación exacta depende del sistema, pero debería ser una carpeta con el nombre `jdk-XX...` donde `XX` es una versión (igual o mayor que 17).
+
+Verifica de nuevo con `java -version`.
 
 ## 3. Comprobar Python
 
@@ -70,15 +72,13 @@ python --version
 python3 --version
 ```
 
-En Windows también puedes probar:
-
 ```powershell
 py --version
 ```
 
 Si aparece una versión adecuada (por ejemplo, `Python 3.12.x`), continúa. Si no, instala una versión estable desde <https://www.python.org/downloads/>.
 
-> **Importante:** en los siguientes pasos usamos `python` como ejemplo. Si en tu computador funciona `python3` o `py`, reemplaza `python` por ese comando.
+> **Importante:** en los siguientes pasos usamos `python` como ejemplo. Si en tu computador funciona `python3` o `py` (con versión 3.11 o posterior), reemplaza `python` por ese comando.
 
 ## 4. Instalar PySpark y JupyterLab
 
