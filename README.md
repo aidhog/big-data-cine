@@ -139,7 +139,7 @@ spark.range(2).count()
 
 Haz clic en el botón **▶** o presiona **Shift + Enter**.
 
-Espera unos segundos (la primera ejecución puede tardar un poco más). Debajo de la celda debería aparecer:
+Espera unos segundos (la primera ejecución puede tardar un poco más). Debajo de la celda debería aparecer una nueva celda, y luego de algunos segundos debería aparecer:
 
 ```text
 2
